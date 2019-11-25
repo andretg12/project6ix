@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body,
+html {
+	font-family: "Roboto", sans-serif;
+}
+
+.bg-shop {
+	background-color: white !important;
+}
+
+/* Header Parallax Element Style*/
+.paral {
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+/* Heading for Parallax Section */
+
+/* Image for Parallax Section */
+.paralsec {
+	background-image: url("https://media1.fdncms.com/eastbayexpress/imager/u/original/5013951/fullsizerender.jpg");
+}
+
+.paralsec1 {
+	background-image: url("https://www.billboard.com/files/media/rosalia-ozuna-2019-billboard-1548.jpg");
+}
+
+/*Media query*/
+@media (max-width: 680px),
+screen and (orientation: portrait) {
+	body {
+		width: 100vw !important;
+		overflow-x: hidden !important;
+	}
+
+	.carousel {
+		width: 100vw !important;
+	}
+
+	.carousel-item img {
+		height: 25em !important;
+		width: 100vw !important;
+	}
+
+	h1 {
+		top: 40% !important;
+	}
+
+	#shop-btn {
+		margin-bottom: 1em;
+	}
+}
+
+h1 {
+	position: absolute;
+	top: 50%;
+	color: white;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: bungee, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	border: 0.125em none black;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+carousel-item:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0 !important;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: black;
+}
+
+.carousel-inner img {
+	height: 100vh;
+}
+
+.jumbotron-fluid {
+	padding: 1.25em;
+}
+
+.jumbotron-img {
+	width: 100%;
+}
+
+.fa-github {
+	color: black;
+}
+
+.fa-linkedin {
+	color: #017bb8;
+}
+
+.fa-instagram {
+	color: transparent;
+	background: radial-gradient(circle at 30% 107%,
+			#fdf497 0%,
+			#fdf497 5%,
+			#fd5949 45%,
+			#d6249f 60%,
+			#285aeb 90%);
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.fa-mountain {
+	color: white;
+	margin-right: 0.375em;
+}
+
+.marketing {
+	padding-top: 3.75em;
+}
+
+.jumbotron .row {
+	align-items: center;
+}

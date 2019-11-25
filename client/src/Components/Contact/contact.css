@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body,
+html {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h2 {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.info,
+.submit {
+    padding: 10px;
+}
+
+.subscribe-form {
+    display: inline-block;
+    margin-bottom: 52px;
+    width: 33.875em;
+    margin: 0 auto;
+    position: relative;
+}
+
+.error {
+    color: red;
+}
+
+.subscribe-form input {
+    color: black;
+    height: 73px;
+    width: 100%;
+    background: transparent;
+    border: 2px solid black;
+    font-size: 13px;
+    font-style: italic;
+    padding-left: 28px;
+    display: inline-block;
+}
+
+.subscribe-form input::-webkit-input-placeholder {
+    color: black;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.subscribe-form input:-ms-input-placeholder {
+    color: black;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.subscribe-form input::-ms-input-placeholder {
+    color: black;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.subscribe-form input::placeholder {
+    color: black;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.subscribe-form button {
+    color: #fff;
+    background: #233EDE;
+    border: 1px solid #233EDE;
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 4em;
+    width: 192px;
+    cursor: pointer;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('https://images.unsplash.com/photo-1491339526372-c7112c8e37f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+form {
+    text-align: center
+}
+
+.form-wrapper {}
+
+.fa-github {
+    color: black;
+}
+
+.fa-linkedin {
+    color: #017bb8;
+}
+
+.fa-mountain {
+    color: white;
+    margin-right: 0.375em;
+}
+
+.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
