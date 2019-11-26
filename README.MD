@@ -1,6 +1,6 @@
 # E-Commerce Website with JWT and bcrypt
 
-This is my fith version of this project, made to show the use of bcrypt and jwtokens
+This is my 6th version of this project, made to show the use of bcrypt and jwtokens
 
 ## Getting started
 
@@ -19,3 +19,6 @@ This is my fith version of this project, made to show the use of bcrypt and jwto
 ## License
 
 This project is licensed under the MIT License
+
+![These are the metrics for my products page from a lighthouse audit](https://i.imgur.com/DO6cJty.png)
+
