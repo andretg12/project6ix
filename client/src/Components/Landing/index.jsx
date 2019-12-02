@@ -24,7 +24,7 @@ const Landing = () => {
 						<div className="carousel-inner">
 							<div className="carousel-item active">
 								<img
-									src="http://i.imgur.com/HD7fPEf.jpg"
+									src="https://i.imgur.com/HD7fPEf.jpg"
 									className="d-block w-100"
 									alt="..."
 								/>
@@ -126,7 +126,7 @@ const Landing = () => {
 								url="https://www.youtube.com/watch?v=vE_JjQMqQeY"
 								volume={0}
 								mute="true"
-								playing={true}
+								playing={false}
 								playsinline={true}
 							/>
 						</div>
@@ -184,7 +184,7 @@ const Landing = () => {
 								url="https://www.youtube.com/watch?v=58u-zkDLNPg"
 								volume={0}
 								playsinline={true}
-								playing={true}
+								playing={false}
 							/>
 						</article>
 					</div>

@@ -17,7 +17,7 @@ function Footer() {
 				<a href="http://jigsaw.w3.org/css-validator/check/referer">
 					<img
 						className="vcss"
-						src="http://jigsaw.w3.org/css-validator/images/vcss"
+						src="https://jigsaw.w3.org/css-validator/images/vcss"
 						alt="Valid CSS!"
 					/>
 				</a>
