@@ -21,20 +21,16 @@ mongo.connect(
 		console.log(err || "Connected to MongoDB");
 	}
 );
-app.use(function(environments, status) {
-	environments = environments || ["production"];
-	status = status || 302;
-	return function(req, res, next) {
-		if (environments.indexOf(process.env.NODE_ENV) >= 0) {
-			if (req.headers["x-forwarded-proto"] != "https") {
-				res.redirect(status, "https://" + req.hostname + req.originalUrl);
-			} else {
-				next();
-			}
-		} else {
-			next();
-		}
-	};
+app.use((req, res, next) => {
+	// The 'x-forwarded-proto' check is for Heroku
+	if (
+		!req.secure &&
+		req.get("x-forwarded-proto") !== "https" &&
+		process.env.NODE_ENV === "production"
+	) {
+		return res.redirect("https://" + req.get("host") + req.url);
+	}
+	next();
 });
 app.use(express.static(`${__dirname}/client/build`));
 app.use(logger("combined"));
