@@ -18,6 +18,7 @@ The above image were the Lighthouse audit results of my app before I turned it i
 ## PWA Capabilities
 
 If you go the website in the description of the repo on a mobile device, you'll find the add to home screen option, after you follow the steps youll encounter this icon in your homescreen
+
 ![This is the app icon](https://i.imgur.com/lyhtlSD.jpg).
 
 ## Author
